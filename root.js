@@ -74,4 +74,5 @@ app.listen(process.env.PORT,process.env.IP, function(){
 });
 
 	//MongoDB connection
-mongoose.connect("mongodb://localhost/yelp_camp", {useMongoClient: true});
+//mongoose.connect("mongodb://localhost/yelp_camp", {useMongoClient: true});
+mongoose.connect("mongodb://admin:Haidamagi123@ds157185.mlab.com:57185/yelp_camp", {useMongoClient: true});
