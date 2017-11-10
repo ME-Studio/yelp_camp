@@ -74,4 +74,4 @@ app.listen(process.env.PORT,process.env.IP, function(){
 });
 
 	//MongoDB connection
-mongoose.connect("DATABASEURL", {useMongoClient: true});
+mongoose.connect(process.env.DATABASEURL, {useMongoClient: true});
