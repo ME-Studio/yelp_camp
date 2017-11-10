@@ -69,7 +69,7 @@ app.use("/campgrounds/:id/comment", commentRoutes);
 
 /* ****** SERVER CONNECTIONS ****** */ 
 
-app.listen(8080, function(){
+app.listen(process.env.PORT,process.env.IP, function(){
 	console.log("YelpCamp server as being started on the PORT: 8080");
 });
 
